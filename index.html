@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Checkout Form -->
+    <div class="checkout">
+
+        <h2>Payment Details</h2>
+        <p class="subtitle">Complete your purchase</p>
+
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="John Doe">
+
+            <label>Email</label>
+            <input type="email" placeholder="john@email.com">
+
+            <label>Card Number</label>
+            <input type="text" placeholder="1234 5678 9012 3456">
+
+            <div class="row">
+                <div>
+                    <label>Expiry</label>
+                    <input type="text" placeholder="MM/YY">
+                </div>
+
+                <div>
+                    <label>CVC</label>
+                    <input type="text" placeholder="123">
+                </div>
+            </div>
+
+            <button class="btn">Pay $120</button>
+        </form>
+
+    </div>
+
+    <!-- Summary -->
+    <div class="summary">
+
+        <h3>Order Summary</h3>
+
+        <div class="item">
+            <span>Product</span>
+            <span>$100</span>
+        </div>
+
+        <div class="item">
+            <span>Tax</span>
+            <span>$20</span>
+        </div>
+
+        <hr>
+
+        <div class="total">
+            <strong>Total</strong>
+            <strong>$120</strong>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
